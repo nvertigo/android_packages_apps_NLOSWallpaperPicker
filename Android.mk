@@ -24,14 +24,18 @@ LOCAL_STATIC_JAVA_LIBRARIES := android-support-v4
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 LOCAL_SDK_VERSION := current
-LOCAL_PACKAGE_NAME := WallpaperPicker
+LOCAL_PACKAGE_NAME := NLOSWallpaperPicker
+LOCAL_MODULE_STEM := WallpaperPicker
+LOCAL_OVERRIDES_PACKAGE := WallpaperPicker
 include $(BUILD_PACKAGE)
 
 
 # Static library for target
 # ========================================================
 include $(CLEAR_VARS)
-LOCAL_MODULE := libWallpaperPicker
+LOCAL_MODULE := NLOSlibWallpaperPicker
+LOCAL_MODULE_STEM := libWallpaperPicker
+LOCAL_OVERRIDES_PACKAGE := libWallpaperPicker
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 LOCAL_SDK_VERSION := current
 LOCAL_SRC_FILES := $(call all-java-files-under,src)
