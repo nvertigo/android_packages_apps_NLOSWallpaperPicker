@@ -17,8 +17,8 @@
 
 <resources>
     <string-array name="wallpapers" translatable="false">
-        <item>nlos</item>
         <item>nloscircular1</item>
+        <item>nloseverest</item>
         <item>arc</item>
         <item>colorpass</item>
         <item>fabrik</item>
