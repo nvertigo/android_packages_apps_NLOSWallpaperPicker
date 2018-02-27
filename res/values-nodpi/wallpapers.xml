@@ -18,8 +18,6 @@
 <resources>
     <string-array name="wallpapers" translatable="false">
         <item>nlos</item>
-        <item>oxy24</item>
-        <item>oxy25</item>
         <item>abstract_orderofchaos</item>
         <item>abstract_spacestory</item>
         <item>abstract_unsplash</item>
